@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { repeat } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todo-list';
+  constructor(){
+    setTimeout(()=>{
+      this.title = 'prajitas-todo-list';
+    }, 2000);
+  }
 }
