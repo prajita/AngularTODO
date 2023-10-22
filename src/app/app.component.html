@@ -1,11 +1,51 @@
-<div>
-  <h1>this is {{title}}</h1>
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus facilis veritatis est animi
-    neque repudiandae odit illum! Dolor ratione, consequuntur incidunt a ea voluptatem, animi eius commodi
-    alias, voluptatum rerum beatae. Recusandae, ipsum soluta.
-  </p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex enim, quam minima incidunt tempora
-    nihil ducimus optio cum! Similique blanditiis quaerat ex exercitationem praesentium,
-    nisi cum a consectetur assumenda odio accusamus saepe. Ut mollitia adipisci fugit perspiciatis
-    illum magni id, iusto voluptates officiis sapiente ullam a?</p>
+<div class="outer">
+  <div class="d-flex">
+    <img src="assets/angular-logo.png" alt="angular-logo" height="50px" width="80px" />
+    <h1>This is {{title}} using Angular 16</h1>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Todos List</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="prime">
+    <p>Angular is an application-design framework and development platform for creating efficient and sophisticated
+      single-page apps.
+    </p>
+    <p>These Angular docs help you learn and use the Angular framework and development platform, from your first
+      application
+      to optimizing complex single-page applications for enterprises. Tutorials and guides include downloadable examples
+      to help
+      you start your projects.</p>
+
+    <div class="container-fluid">
+      <h1 class="text-center">Todo list by Prajita</h1>
+      <app-todos></app-todos>
+    </div>
+  </div>
 </div>

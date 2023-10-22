@@ -1,0 +1,10 @@
+
+.outer{
+    margin: 2rem;
+}
+.prime{
+    background-image: url('../assets/dev1.avif'); 
+    background-size: cover; /* This will cover the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+}
